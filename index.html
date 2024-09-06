@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Input Box Color Change</title>
+<style>
+textarea {
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+body{
+    background-color: beige;
+}
+</style>
+
+</head>
+<body>
+ <script src="./app.js"></script>
+
+<h3> Make Any Color You Choose For The Input Box With RGB Values (1 - 255) </h3>
+<table>
+    <tbody>
+        <tr>
+            <td colspan="5">
+                <textarea id="id1" cols="50" rows="10"></textarea>
+                
+            </td>
+            <div>
+
+            </div>
+            <td>
+                R
+                <input type=text size=3 maxlength=3 name="r" value="0" onBlur="rgb(this);">
+            </td>
+            <td>
+                G
+                <input type=text size=3 maxlength=3 name="g" value="0" onBlur="rgb(this);">
+            </td>
+            <td>    
+                B
+                <input type=text size=3 maxlength=3 name="b" value="0" onBlur="rgb(this);">
+            </td>
+
+
+</body>
+</html>
