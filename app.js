@@ -12,7 +12,7 @@ function rgb(elem) {
 }
 
 function randomColor() {
-    var r = Math.floor(Math.random() * 255); //
+    var r = Math.floor(Math.random() * 255); // mathematical operation to generate random color
     var g = Math.floor(Math.random() * 255);
     var b = Math.floor(Math.random() * 255);
     var randomColor = "rgb(" + r + "," + g + "," + b + ")";  
@@ -22,6 +22,6 @@ function randomColor() {
   
  
 
-var input = 'Input Box' // This is the string variable of the title of the input box
-
+var input = 'Text Box' // This is the string variable of the title of the input box
+document.write(input)
 console.log (input);
