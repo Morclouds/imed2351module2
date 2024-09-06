@@ -6,7 +6,7 @@ console.log (r, g, b );
 
 function rgb(elem) {
   let name = elem.name; //This varible has block scope
-  let val = elem.value;
+  var val = elem.value;
   window[name] = val;
   document.getElementById("input").style.backgroundColor = 'rgb('+r+','+g+','+b+')';
 }
