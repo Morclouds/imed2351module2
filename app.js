@@ -19,8 +19,9 @@ function randomColor() {
     console.log(randomColor);
     document.getElementById("input").style.backgroundColor = randomColor
   }
-  
- 
+
+  const product = {type: "Apple phone, " , model:"iPhone 15"  } // This is the object variable
+document.getElementById("phone").innerHTML = "Product is an " + product.type + product.model;
 
 var input = 'Text Box' // This is the string variable of the title of the input box
 document.write(input)
