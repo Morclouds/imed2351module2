@@ -26,7 +26,7 @@ body{
     <tbody>
         <tr>
             <td colspan="5">
-                <textarea id="id1" cols="50" rows="10"></textarea>
+                <textarea id="input" cols="50" rows="10"></textarea>
                 
             </td>
             <div>
@@ -34,17 +34,18 @@ body{
             </div>
             <td>
                 R
-                <input type=text size=3 maxlength=3 name="r" value="0" onBlur="rgb(this);">
+                <input type=text size=3 maxlength=3 name="r" value="255" onBlur="rgb(this);">
             </td>
             <td>
                 G
-                <input type=text size=3 maxlength=3 name="g" value="0" onBlur="rgb(this);">
+                <input type=text size=3 maxlength=3 name="g" value="255" onBlur="rgb(this);">
             </td>
             <td>    
                 B
-                <input type=text size=3 maxlength=3 name="b" value="0" onBlur="rgb(this);">
+                <input type=text size=3 maxlength=3 name="b" value="255" onBlur="rgb(this);">
             </td>
-
+        </tbody>
+            <button onclick="random_bg_color();">Random</button>
 
 </body>
 </html>
